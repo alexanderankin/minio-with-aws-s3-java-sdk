@@ -21,8 +21,8 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'com.amazonaws', name: 'aws-java-sdk', version: '1.12.9'
-    implementation group: 'software.amazon.awssdk', name: 'aws-sdk-java', version: '2.16.87'
+    implementation group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.12.9'
+    implementation group: 'software.amazon.awssdk', name: 's3', version: '2.16.87'
 
 
     // Use JUnit Jupiter API for testing.
